@@ -1,0 +1,21 @@
+name: VisitTracker
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  VisitTracker:
+    type: application
+    platform: iOS
+    sources: [VisitTracker]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.visittracker
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "متابعة الزيارات"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
+        TARGETED_DEVICE_FAMILY: "1,2"
